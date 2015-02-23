@@ -1,0 +1,13 @@
+# Site settings
+title: Brandon Ly
+email: brandon@brandonly.me
+description: > # this means to ignore newlines until "baseurl:"
+  A website designed to showcase my past works
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://brandonly.me" # the base hostname & protocol for your site
+twitter_username: brandonthecommy
+github_username:  BrandonLy
+
+# Build settings
+markdown: redcarpet
+highlighter: rouge
