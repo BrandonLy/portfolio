@@ -1,0 +1,136 @@
+body {
+  font-family: 'Oswald', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 0px 50px 150px;
+  font-size: 1.2em;
+  background-image: url("assets/img/mountain.jpg");
+  background-repeat: none;
+  background-attachment: fixed;
+  background-color: #D9E2E8;
+  color: black;
+}
+
+ul {
+  text-align: left;
+  display: inline;
+  margin: 0;
+  padding: 0px 4px 0px 0;
+  list-style: none;
+}
+ul li {
+  font: bold 12px/18px sans-serif;
+  display: inline-block;
+  position: relative;
+  padding: 20px 20px;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  color: #000;
+}
+ul li:hover {
+  background: #555;
+  color: #fff;
+}
+ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 150px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+ul li ul li { 
+  background: #555; 
+  display: block; 
+  color: #fff;
+  text-shadow: 0 -1px 0 #000;
+}
+ul li ul li:hover { background: #666; }
+
+ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+
+}
+.doc{
+  margin-top: 5%;
+}
+ul#nav li{
+  list-style-type: none;
+}
+ul#nav li a:visited{
+  color: #000;
+}
+ul#nav li:hover{
+  color: #FFF;
+}
+ul#nav li a{
+  text-decoration: none;
+  color: #FFF;
+}
+ul#dropdown a li{
+  color: #FFF;
+}
+ul#dropdown a li:visited{
+  color: #FFF;
+}
+ul#dropdown a li:hover{
+  color: #FFF;
+}
+ul#nav{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  box-shadow: 5px 2px 5px #888888;
+  width: 100%;
+  text-align: left;
+  color: #FFF;
+  background-color: #FFF;
+  z-index: 11;
+}
+#footer{
+  color: white;
+  margin-top: 5%;
+  position: absolute;
+  right: 0px;
+  margin-right: 5%;
+}
+.doc{
+  text-align: center;
+}
+footer{
+  text-align: right;
+}
+#welcome{
+  margin-top: 20%;
+}
+#myLogo{
+  height: 20px;
+  width: 20px;
+}
+h2#first{
+  margin-top: 5%;
+}
+h2{
+  text-decoration: underline;
+}
+#irwin{
+  width: 50%;
+  height: 50%;
+}
+h1{
+  margin-top: 5%;
+}

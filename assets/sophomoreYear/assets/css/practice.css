@@ -1,0 +1,79 @@
+/*color scheme for this page
+#1AFF00 green
+*/
+
+body{
+	background-image: url('panda_background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Lucida Grande", "Palatino Linotype", "Courier New", serif;
+	background-attachment: fixed;
+}
+
+#css-zen-garden{
+	position: relative;
+	left: 20%;
+	max-width: 57%;
+}
+
+h1, h2, h3{
+	background-color: rgba(26,255,0, 0.4); /*green*/
+	border-style: inset;
+	border-color: rgba(0,255,27,0.3); /*bright green*/
+	font-family: "MS Mincho",Tangerine, Impact, cursive;
+	text-align: center;
+	margin: 1em, auto;
+}
+
+h2, h3{
+	text-transform: lowercase;
+}
+
+h1{
+	border-width: 7px;
+	font-size: 2em;
+	text-transform: uppercase;
+	text-shadow: .3em .3em 0 rgba(116,113,127, 0.4);
+}
+
+h1:first-letter{
+	font-family: "Lucida Calligraphy", "Monotype Corsiva", cursive;
+	font-size: 2.2em;
+}
+
+h2{
+	border-width: 5px;
+}
+
+h3{
+	border-width: 3px;
+}
+
+p{
+	background-color: rgba(0,64,7,0.6); /*dark green*/
+	color:white;
+}
+
+a{
+	color: #DEFAFF; /*light silver/gray*/
+	text-decoration: none;
+}
+
+a:hover, a:focus{
+	color:white;
+	background-color: black;
+	outline-style: solid;
+	outline-color: green;
+}
+
+li{
+	background-color: rgba(24,166,22,0.6);
+}
+
+ul{
+	list-style-image: url(panda_head.png);
+}
+
+#zen-wrapper p{
+	clear:both;
+}

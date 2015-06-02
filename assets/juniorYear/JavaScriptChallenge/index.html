@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset = "utf-8">
+        <link rel="stylesheet" type="text/css" href="assets/css/javascriptcss.css">
+    </head>
+    
+    <body>
+        <div>
+            <h2 id ="name"></h2>
+            <h2 id = "quizhead">A Comprehensive Web Designer & Developer Quiz</h2>
+            <h3 id="question"></h3>
+            <form id="answers">
+        <div class="choice">
+                <input type="radio" name="answer" id="1" onclick="checkAnswer();historyquiz()"><label value="A" for="1"></label></br>
+        </div>
+        <div class="choice">
+                <input type="radio" name="answer" id="2" onclick="checkAnswer();historyquiz()"><label value="B" for="2"></label></br>
+        </div>
+        <div class="choice">
+            <input type="radio" name="answer" id="3" onclick="checkAnswer();historyquiz()"><label value="C" for="3"></label></br>
+        </div>
+        <div class="choice">
+            <input type="radio" name="answer" id="4" onclick="checkAnswer();historyquiz()"><label value="D" for="4"></label></br>
+        </div>
+            </form>
+                <!--<input id="submit" type="button" onclick="checkAnswer()" value ="Submit">-->
+            <button id="next" onclick="historyquiz()">Start the Quiz</button>
+            <h3 id="displayCorrect"></h3>
+            <div id="tracker"><h3 id="score"></h3></div>
+                
+            
+            <!--<div id="numberRight">
+            <h3 id="right"></h3>
+            <p>Correct</p>
+            </div>
+            <div id="numberWrong">
+            <h3 id="wrong"></h3>
+            <p>Incorrect</p>
+            </div>-->
+            <h2 id="finalScore"></h2>
+        </div>
+        <script src= "assets/js/quiz.js"></script>
+        
+    </body>
+</html>

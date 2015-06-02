@@ -1,0 +1,168 @@
+/*
+Color scheme for this website
+#234234 green
+#485454 green
+#000000 black
+#FFFFFF white
+#780074 Purple
+#FF0000 Red
+#CCCCCC
+#0591FF light blue
+*/
+ 
+ body {
+ 	font-size: 1em;
+ 	font-weight: normal;
+ 	font-family: Arial, Helvetica,sans-serif;
+ 	text-align: left;
+ 	background-color: #0591FF;
+ 	color: #9DCBD5;
+ 	width: 70%;
+ 	min-width: 720px;
+ 	margin: 0 auto;
+ }
+
+ h1,h2{
+ 	font-family: Palatino, Georgia, serif;
+ }
+
+ h1{
+ 	font-size: 1.8em;
+ 	color: white;
+ 	font-weight: bold;
+ 	text-align: center;
+ 	text-shadow: 4px 4px 4px black;
+ }
+
+ h2{
+ 	font-size: 1.4em;
+ 	color: #CCCCCC;
+ }
+
+ div{
+ 	border: 1px solid black;
+ 	padding: 1em;
+ 	margin: 1em;
+ 	background-color: #0009D5;
+ }
+
+ p{
+ 	font-style: italic;
+ 	background-color: #FF0000;
+ 	margin: 1em;
+ 	padding: 1em;
+ }
+
+ a{
+ 	color: #CCCCCC;
+ }
+
+ a:hover, a:focus{
+ 	color:black;
+ 	background-color: #FFFFCC; /*yellow*/
+ }
+
+ /*table styles*/
+ table{
+ 	margin: 0 auto; /* this is a trick for centering certain elements*/
+ 	background-color: black;
+ }
+
+ th, td{
+ 	background-color: white;
+ 	color: black;
+ 	padding: 0.75em;
+ 	margin: 1px;
+ }
+
+ caption{
+ 	font-width: bold;
+ 	font-size: 1.2em;
+ 	margin:0.75em;
+ }
+
+ /*elements with id's and classes*/
+
+div#skipnav{
+	position:relative;
+	right: 12.5%;
+	width:10em;
+	text-align: center;
+} 
+
+div.info{
+	float: left;
+	width: 40%;
+	font-size: 1.2em;
+}
+
+div#navigation{
+	clear: left;
+}
+
+div#main, div#main p{
+	color:black;
+	background-color:white;
+	font-style: normal;
+}
+
+div.unit2 ol{
+	color:#9DCBD5;
+}
+
+div#main p{
+	margin-left: 2em;
+}
+
+div#main p#overview{
+	margin-left: 1em;
+	font-size: 1.1em;
+}
+
+p#overview:first-letter{
+	font-family: "Lucida Calligraphy", "Monotype Corsiva", cursive;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+div#main p.temp{
+	font-style:italic;
+}
+
+/*navigation menu styles*/
+
+div#navigation{
+	padding-bottom: 0.25em;
+}
+
+div#navigation ul{
+	list-style-type: none;
+	padding-bottom: inherit;
+	position:relative;
+	left: 5%;
+}
+
+div#navigation ul li{
+	float: left;
+	margin-right: 0.5em;
+}
+
+div#navigation ul li a{
+	padding: 0.25em 1em;
+	text-decoration: none;
+	background-color: #EBF5FF;
+	color: #4312AE;
+	border: 2px solid black;
+	border-top-left-radius: 1em 1em;
+	border-top-right-radius: 1em 1em;
+}
+
+div#navigation ul li a:hover, div#navigation ul li a:focus{
+	color: black; 
+	background-color:white;
+	font-weight: bolder;
+}
+
+div#main{
+	clear:left;
+}
